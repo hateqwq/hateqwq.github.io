@@ -1,0 +1,120 @@
+a {
+  text-decoration: none;
+}
+.mark {
+  z-index: 2;
+}
+.rectangle {
+    background-color: black;
+    margin: 0 auto;
+    border: 3px solid black;
+    border-radius: 77px;
+    width: 1056px;
+    height: 568px;
+    position: relative;
+  }
+  
+  .m-rectangle {
+    background-color: #8A8A8A;
+    border-radius: 77px;
+    margin: 30px;
+    width: 987px;
+    height: 495px;
+    position: relative;
+  }
+  
+  .title {
+    color: black;
+    font-size: 40px;
+    position: absolute;
+    top: 5px;
+    left: 60px;
+  }
+
+  .news {
+    color: black;
+    font-size: 25px;
+    position: absolute;
+    top: 2px;
+    left: 400px;
+  }
+
+  .news-message {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+  }
+
+  .name-c {
+    z-index: 2;
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    top: 165px;
+    left: 10px;
+  }
+
+  .info-c {
+    z-index: 2;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 204px;
+    left: 15px;
+  }
+
+  .capital {
+    z-index: 2;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 222px;
+    left: 22px;
+  }
+
+  .language {
+    z-index: 2;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 240px;
+    left: 45px;
+  }
+  
+  .l-rectangle {
+    background-color: #ABABAB;
+    border-radius: 77px;
+    width: 620px;
+    height: 285px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+
+  .r-rectangle {
+    background-color: #ABABAB;
+    border-radius: 77px;
+    width: 620px;
+    height: 285px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+  }
+
+  .l-rectangle, .r-rectangle {
+    z-index: 1;
+  }
+  
+  .white-rectangle {
+    background-color: white;
+    width: 987px;
+    height: 295px;
+    position: absolute;
+    top: 110px;
+    left: 0;
+    right: 300px;
+    border-radius: 20px;
+    z-index: 2;
+  }
